@@ -1,4 +1,4 @@
-# 【论文完整英文标题】
+# 【Titile】
 
 <p align="center">
   <a href="https://arxiv.org/abs/【arXiv编号】"><img src="https://img.shields.io/badge/arXiv-【arXiv编号】-b31b1b.svg" alt="arXiv"></a>
