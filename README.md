@@ -1,38 +1,75 @@
-# Lab-Paper-Template
+# Project Name
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX) 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+> Homepage for **Project Name** and the paper  
+> **"[Paper Title]"**
 
-## Introduction
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](PAPER_LINK)
+[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](ARXIV_LINK)
+[![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-yellow.svg)](HF_LINK)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> This is the C/CUDA implementation for [Your Method Name].
+---
 
-[Brief highlight of the key innovation or improvement].
+## 📌 Overview
 
-[Main result, e.g. XX% / X.Xx speedup] over baseline.
+This repository provides the official implementation of the paper:
 
-Our method is simple to implement, preserves generation quality, and requires no retraining.
+**"[Paper Title]"**
 
-👉 **[Read our paper](https://arxiv.org/abs/XXXX.XXXXX)**
+It includes training and evaluation scripts, model checkpoints, datasets, and configurations to ensure full reproducibility.
 
-## Decoding Speed
+### ✨ Key Features
+- 🚀 Efficient training and inference for large language models
+- 📚 Support for long-context modeling and alignment
+- 📊 Standardized evaluation benchmarks
+- 🔧 Modular and extensible framework
+- ♻️ Reproducible experimental pipeline
+
+---
+
+## 📰 News
+
+- **YYYY.MM.DD** – Repository initialized.
+- **YYYY.MM.DD** – Paper released on arXiv.
+- **YYYY.MM.DD** – Training and evaluation code released.
+- **YYYY.MM.DD** – Model checkpoints available on Hugging Face.
+- **YYYY.MM.DD** – Accepted by **[Conference Name]**.
+
+---
+
+## 📄 Paper
+
+- **Title:** Paper Title  
+- **Authors:** Author A, Author B, Author C  
+- **Affiliation:** Institution Name  
+- **Conference/Journal:** Conference Name, Year  
+- **arXiv:** ARXIV_LINK  
+- **PDF:** PAPER_LINK  
+- **Project Page:** PROJECT_LINK  
+
+---
+
+## 🏗️ Model Architecture
 
 <div align="center">
-  <img src="assets/speed_compare.png" alt="Method Architecture" width="800px">
+  <img src="assets/architecture.png" width="800">
 </div>
-Decoding speed (token/s) comparison under different frameworks.
 
-## News
+*Figure: Overview of the proposed framework.*
 
-**YYYY.MM.DD** [News item 1]  
-**YYYY.MM.DD** [News item 2]  
-...
+---
 
-## Installation from source
+## 📊 Results
 
-```bash
-conda create -n your-project python==3.11 && conda activate your-project
-# install pytorch for your platform, see https://pytorch.org
-git clone https://github.com/yourusername/your-repo.git --recursive && cd your-repo
-vim setup.py # change arch="80" to your GPU compute capability
-pip install .
+### Main Results
+
+| Model | Dataset | Metric | Score |
+|-------|---------|--------|-------|
+| Baseline | TBD | TBD | TBD |
+| Ours | TBD | TBD | TBD |
+
+More experimental results are available in the `results/` directory.
+
+---
+
+## 📂 Repository Structure
