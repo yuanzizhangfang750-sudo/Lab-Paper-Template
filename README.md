@@ -1,46 +1,42 @@
-# Word-Deed Consistency Test
+# 项目名称
 
-[![🤖 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](HF_LINK)  
-[![📑 Paper (arXiv:XXXX.XXXXX)](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg?logo=arXiv)](ARXIV_LINK)  
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[各种徽章...]
 
-This repository is the official implementation of **"Large Language Models that Replace Human Participants Can Harmfully Misportray and Flatten Identity Groups"**.  
+## 简介
+这里写项目的背景、论文标题、主要解决了什么问题、核心创新点等（2-4段文字）。
 
-> Large Language Models that Replace Human Participants Can Harmfully Misportray and Flatten Identity Groups  
-> Zhang Fang Yuanzi*, Author B*, Author C†  
-> Institution Name
+## 新闻 / 更新
+- 2026.04.09：项目正式开源！
+- 2025.12：论文被 XXX 会议接收。
 
----
+## 核心特性
+- ✨ 特性一：......
+- 🚀 特性二：......
+- 📊 特性三：......
 
-## Notes
-- This repo provides official **training scripts, evaluation scripts, model checkpoints, datasets**, and **configurations** for reproducible experiments.  
-- All results reported in the paper can be reproduced under the provided scripts and settings.
+## 安装
+这里写环境要求 + 安装命令。
 
----
+## 快速开始
+这里放最简单的使用代码示例。
 
-## News
+## 模型权重与数据准备
+写权重下载地址、预处理脚本等。
 
-**[2026.04.09]** Repository initialized.  
-**[2026.04.09]** Paper released on arXiv.  
-**[2026.04.09]** Training and evaluation code released.  
-**[2026.04.09]** Model checkpoints available on HuggingFace.  
-**[2026.04.09]** Accepted by **[Conference Name]**.
+## 评估与实验
+写如何运行评估、支持哪些 benchmark 等。
 
----
+## 结果展示
+在这里插入表格、图片对比等。
 
-## Overview
+## 贡献者
+列出作者和 GitHub 链接。
 
-<div align="center">
-  <img src="assets/architecture.png" width="800">
-</div>
+## 致谢
+感谢用到的开源项目、导师、基金等。
 
-*Figure: Overview of the proposed Word-Deed Consistency Test framework.*
+## 引用
+放 BibTeX 引用格式。
 
----
-
-## Installation
-
-1. Clone this repo
-```bash
-git clone REPO_LINK
-cd Word-Deed-Consistency-Test
+## 许可证
+说明使用 Apache 2.0 / MIT 等许可证。
