@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/【arXiv编号】"><img src="https://img.shields.io/badge/arXiv-【arXiv编号】-b31b1b.svg" alt="arXiv"></a>
   <a href="https://huggingface.co/【HuggingFace用户名】/【模型或数据集名称】"><img src="https://img.shields.io/badge/🤗-Model_Weights-yellow" alt="Hugging Face"></a>
-  <a href="https://github.com/【GitHub用户名】/【仓库名】/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/【GitHub用户名】/【仓库名】/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11-blue.svg" alt="Python"></a>
 </p>
 
@@ -150,4 +150,10 @@ If you find our work helpful, please cite:
 
 ## License
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
+
+> **Note:** We chose the MIT License for its simplicity and permissiveness. 
+> Unlike Apache 2.0, MIT does not include an explicit patent grant, 
+> but it allows anyone to use, modify, and distribute the code freely, 
+> making it ideal for lightweight open-source projects.
+> 
