@@ -69,15 +69,15 @@ pip install -e .
 
 ## Model Weights & Data Preparation
 
-【说明读者需要准备哪些资源，通常包括以下两类：】
+【模型权重，通常包括以下两类：】
 
-- **Base Model:** 【说明依赖的基础模型名称及下载方式，附 Hugging Face 链接。若直接使用 `from_pretrained` 自动下载，注明即可。】
+- **Base Model:** 【说明依赖的基础模型名称及下载方式，附链接。】
 - **Additional Weights (optional):** 【若有本项目额外训练的权重，提供下载链接；若无，删除此行。】
 
-【若需要自行准备数据，提供预处理脚本的调用方式：】
+【数据准备，提供预处理脚本的调用方式：】
 
 ```bash
-# 数据预处理示例（根据实际脚本修改）
+# 如果下载完原始数据之后，需要运行一个脚本处理格式，在此输入bash。如果不需要就删掉。
 python scripts/preprocess.py \
     --input_dir 【原始数据路径】 \
     --output_dir 【输出路径】
